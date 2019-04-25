@@ -2,6 +2,7 @@
   "name": "MyPortfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://shivs077.github.io",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
@@ -15,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass": "node-sass -w scss/ -o src/css/ --recursive"
+    "sass": "node-sass -w scss/ -o src/css/ --recursive",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
