@@ -25,7 +25,6 @@ const home = () => {
             <i className="fab fa-twitter fa-2x" />
           </a>
         </div>
-       
       </main>
     </Aux>
   );
