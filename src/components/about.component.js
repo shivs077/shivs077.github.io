@@ -2,7 +2,7 @@ import React from "react";
 import Image from "../img/portrait1.jpg";
 import Footer from "./Footer";
 import Heading from "../content/Heading";
-import Aux from "../hoc/Aux";
+import Aux from "../hoc/Auy";
 
 const about = () => {
   document.title = "My Portfolio | About";

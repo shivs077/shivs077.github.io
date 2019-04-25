@@ -1,6 +1,6 @@
 import React from "react";
 import Heading from "../content/Heading";
-import Aux from "../hoc/Aux";
+import Aux from "../hoc/Au";
 const home = () => {
   document.title = "My Portfolio | Home";
   return (

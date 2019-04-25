@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "../content/Heading";
 import Work from "../content/Work";
-import Aux from "../hoc/Aux";
+import Aux from "../hoc/Auy";
 import Footer from "./Footer";
 
 const WorkPage = () => {
