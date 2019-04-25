@@ -1,71 +1,23 @@
 import React from "react";
+import Heading from "../content/Heading";
+import Work from "../content/Work";
+import Aux from "../hoc/Aux";
+import Footer from "./Footer";
 
-const work = () => (
-  <div>
-    <main id="work">
-      <h1 className="lg-heading">
-        My <span className="text-secondary">Work</span>
-      </h1>
-      <h2 className="sm-heading">My Few Work Samples...</h2>
-      <div className="projects">
-        <div className="item">
-          <a href="#!">
-            <img src="img/projects/project1.jpg" alt="project" />
-          </a>
-          <a href="#" className="btn-light">
-            <i className="fas fa-eye" /> Project
-          </a>
-          <a href="#" className="btn-dark">
-            <i className="fab fa-github" /> Github
-          </a>
+const WorkPage = () => {
+  document.title = "My Portfolio | Work";
+  const projects = ["BurgerBuilder", "HirePredictor","GoodDrop"];
+  return (
+    <Aux>
+      <main id="work">
+        <Heading lg="My" span="Work" sm="My Few Work Samples..." />
+        <div className="projects">
+          <Work projects={projects} />
         </div>
-        <div className="item">
-          <a href="#!">
-            <img src="img/projects/project2.jpg" alt="project" />
-          </a>
-          <a href="#" className="btn-light">
-            <i className="fas fa-eye" /> Project
-          </a>
-          <a href="#" className="btn-dark">
-            <i className="fab fa-github" /> Github
-          </a>
-        </div>
-        <div className="item">
-          <a href="#!">
-            <img src="img/projects/project3.jpg" alt="project" />
-          </a>
-          <a href="#" className="btn-light">
-            <i className="fas fa-eye" /> Project
-          </a>
-          <a href="#" className="btn-dark">
-            <i className="fab fa-github" /> Github
-          </a>
-        </div>
-        <div className="item">
-          <a href="#!">
-            <img src="img/projects/project4.jpg" alt="project" />
-          </a>
-          <a href="#" className="btn-light">
-            <i className="fas fa-eye" /> Project
-          </a>
-          <a href="#" className="btn-dark">
-            <i className="fab fa-github" /> Github
-          </a>
-        </div>
-        <div className="item">
-          <a href="#!">
-            <img src="img/projects/project5.jpg" alt="project" />
-          </a>
-          <a href="#" className="btn-light">
-            <i className="fas fa-eye" /> Project
-          </a>
-          <a href="#" className="btn-dark">
-            <i className="fab fa-github" /> Github
-          </a>
-        </div>
-      </div>
-    </main>
-  </div>
-);
+      </main>
+      <Footer />
+    </Aux>
+  );
+};
 
-export default work;
+export default WorkPage;

@@ -1,27 +1,28 @@
 import React from "react";
+import Heading from "../content/Heading";
+import Contact from "../content/Contact";
+import Footer from "./Footer";
+import Aux from "../hoc/Aux"; 
 
-const contact = () => (
-  <div>
-    <main id="contact">
-      <h1 className="lg-heading">
-        Contact <span className="text-secondary">Me</span>
-      </h1>
-      <h2 className="sm-heading">This is how you can reach me...</h2>
-      <div className="boxes">
-        <div>
-          <span className="text-secondary">Email:</span>{" "}
-          shivambisht.1998@gmail.com
+const contactPage = () => {
+  document.title = "My Portfolio | Contact";
+  return (
+    <Aux>
+      <main id="contact">
+        <Heading lg="Contact" span="Me" sm="This is how you can reach me..." />
+        <div className="boxes">
+          <Contact span="Email:" text="shivambisht.1998@gmail.com" />
+          <Contact span="Phone:" text="9868573311" />
+          <Contact
+            span="Address:"
+            text="27/4-C P&amp;T Gole
+            Market,New Delhi-01"
+          />
         </div>
-        <div>
-          <span className="text-secondary">Phone:</span> 9868573311
-        </div>
-        <div>
-          <span className="text-secondary">Address:</span> 27/4-C P&amp;T Gole
-          Market,New Delhi-01
-        </div>
-      </div>
-    </main>
-  </div>
-);
+      </main>
+      <Footer />
+    </Aux>
+  );
+};
 
-export default contact;
+export default contactPage;
