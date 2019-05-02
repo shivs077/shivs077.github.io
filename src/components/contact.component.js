@@ -13,11 +13,7 @@ const contactPage = () => {
         <div className="boxes">
           <Contact span="Email:" text="shivambisht.1998@gmail.com" />
           <Contact span="Phone:" text="9868573311" />
-          <Contact
-            span="Address:"
-            text="27/4-C P&amp;T Gole
-            Market,New Delhi-01"
-          />
+          <Contact span="Address:" text="New Delhi, India" />
         </div>
       </main>
       <Footer />
