@@ -5,12 +5,21 @@ const WorkLayout = props => {
   return (
     <div className="item">
       <img src={img} alt="project" />
-      <a
-        href={"https://github.com/shivs077/" + props.src}
-        className="btn-light"
-      >
-        <i className="fas fa-eye" /> Project
-      </a>
+      {props.src === "BurgerBuilder" ? (
+        <a
+          href={"https://shivs077.github.io/" + props.src}
+          className="btn-light"
+        >
+          <i className="fas fa-eye" /> Project
+        </a>
+      ) : (
+        <a
+          href={"https://github.com/shivs077/" + props.src}
+          className="btn-light"
+        >
+          <i className="fas fa-eye" /> Project
+        </a>
+      )}
       <a href={"https://github.com/shivs077/" + props.src} className="btn-dark">
         <i className="fab fa-github" /> Github
       </a>
