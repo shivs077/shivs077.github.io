@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/portrait1_small.a0b3912c.jpg"
   },
   {
-    "revision": "68325ecd40044a956bb2",
+    "revision": "afec299b4855a70a4392",
     "url": "/static/css/main.925220ab.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/favicon.c92b85a5.ico"
   },
   {
-    "revision": "68325ecd40044a956bb2",
-    "url": "/static/js/main.54450a6a.chunk.js"
+    "revision": "afec299b4855a70a4392",
+    "url": "/static/js/main.5469a78f.chunk.js"
   },
   {
     "revision": "00051dbb5b9c7a7f4dfdf04f1b633445",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/HirePredictor.6cb74af6.jpg"
   },
   {
-    "revision": "36d540c003d228bcd4ce82ab217ecff7",
+    "revision": "18bb0c81d503111a42de58691e607448",
     "url": "/index.html"
   }
 ];
