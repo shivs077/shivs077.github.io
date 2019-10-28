@@ -69,6 +69,16 @@ export default class Header extends Component {
                 Contact
               </NavLink>
             </li>
+
+            <li className={"nav-item " + Show} onClick={this.menuTog}>
+              <NavLink
+                to="/blog"
+                className="nav-link"
+                activeClassName="current"
+              >
+                Blog
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </header>

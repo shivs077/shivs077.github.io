@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "../content/Heading";
 import Contact from "../content/Contact";
 import Footer from "./Footer";
-import Aux from "../hoc/Auy"; 
+import Aux from "../hoc/Auy";
 
 const contactPage = () => {
   document.title = "My Portfolio | Contact";

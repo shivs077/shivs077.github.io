@@ -91,6 +91,9 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+.nav-item:nth-child(5) {
+  transition-delay: 0.5s; }
+
 * {
   box-sizing: border-box; }
 
@@ -149,7 +152,7 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
-  main#work, main#contact, main#about {
+  main#work, main#contact, main#about, main#blog {
     min-height: calc(100vh - 82px); }
 
 .about-info {
@@ -252,8 +255,11 @@ main {
       line-height: 1;
       margin-bottom: 1rem;
       font-size: 3rem; }
+    main p {
+      text-align: justify; }
   ul.menu-nav,
   div.menu-branding {
+    overflow: hidden;
     float: none;
     width: 100%;
     min-height: 0; }
@@ -264,6 +270,11 @@ main {
     height: 70vh;
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
+    .menu-nav .nav-item {
+      position: relative;
+      top: -2rem; }
+    .menu-nav .nav-link {
+      font-size: 24px; }
   .menu-branding {
     height: 30vh;
     transform: translate3d(100%, 0, 0); }

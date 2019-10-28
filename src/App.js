@@ -5,6 +5,7 @@ import HomePage from "./components/home.component";
 import AboutPage from "./components/about.component";
 import WorkPage from "./components/work.component";
 import ContactPage from "./components/contact.component";
+import BlogPage from "./components/BlogPost";
 import Header from "./components/Header";
 
 class App extends Component {
@@ -12,10 +13,11 @@ class App extends Component {
     return (
       <Router>
         <Header />
-        <Route path="/" exact component={HomePage} noFooter={true} />
-        <Route path="/about" component={AboutPage} noFooter={false} />
+        <Route path="/" exact component={HomePage} />
+        <Route path="/about" component={AboutPage} />
         <Route path="/work" component={WorkPage} />
         <Route path="/contact" component={ContactPage} />
+        <Route path="/blog" component={BlogPage} />
       </Router>
     );
   }

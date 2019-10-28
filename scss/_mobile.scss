@@ -30,10 +30,15 @@
             margin-bottom: 1rem;
             font-size: 3rem;
         }
+
+        & p {
+            text-align: justify;
+        }
     }
 
     ul.menu-nav,
     div.menu-branding {
+        overflow: hidden;
         float: none;
         width: 100%;
         min-height: 0;
@@ -47,6 +52,16 @@
         height: 70vh;
         transform: translate3d(-100%, 0, 0);
         font-size: 24px;
+
+        .nav-item {
+            position: relative;
+            top: -2rem;
+        }
+
+        .nav-link {
+            font-size: 24px;
+
+        }
 
     }
 

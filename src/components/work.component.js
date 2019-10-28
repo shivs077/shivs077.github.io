@@ -6,7 +6,13 @@ import Footer from "./Footer";
 
 const WorkPage = () => {
   document.title = "My Portfolio | Work";
-  const projects = ["BurgerBuilder", "HirePredictor","GoodDrop"];
+  const projects = [
+    "BurgerBuilder",
+    "iWeather",
+    "VoiceEasy",
+    "GoodDrop",
+    "HirePredictor"
+  ];
   return (
     <Aux>
       <main id="work">

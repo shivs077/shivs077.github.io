@@ -77,7 +77,8 @@ main {
 
     &#work,
     &#contact,
-    &#about {
+    &#about,
+    &#blog {
         min-height: calc(100vh - 82px);
 
     }
@@ -175,6 +176,10 @@ main {
 
     }
 }
+
+//Blog Page
+
+.blogs {}
 
 #main-footer {
     text-align: center;
