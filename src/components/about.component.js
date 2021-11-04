@@ -18,33 +18,28 @@ const About = () => {
             <p>
               An Indian developer and programmer. Professional experience in developing Web apps with ReactJS and
               associated libraries. Also created projects in frameworks like Ionic and React Native. Graduated from
-              GGSIPU, Delhi with a degree in B.Tech. IT.
+              GGSIPU, Delhi with a degree in B.Tech. IT. A cat person.
             </p>
           </div>
           <div className="job job1">
-            <h3>Webshop</h3>
-            <h6>Full Stack Developer</h6>
+            <h3>JS Frameworks</h3>
             <p>
-              I've worked with MERN stack. I also worked with IONIC 3 (uses Angular 2+) to develop a hybrid Weather app
-              which included accessing data from a remote Weather API.
+              Enthusiastic about MERN stack. Also have project in IONIC and React Native. Have P5.js and React-D3 data
+              visualization exposure as well.
             </p>
           </div>
           <div className="job job2">
-            <h3>Designers</h3>
-            <h6>Front End Developer</h6>
+            <h3>Styling</h3>
             <p>
-              I've got a good practice with Photoshop. Ruining my friends' pictures in photoshop is fun. I'm having a
-              good grasp of CSS also SCSS. I've also worked with CSS libraries like BootStrap and Material UI. Other
-              frontend technologies include JQuery and ReactJS.
+              Have a good grasp of CSS (also SCSS). I've also worked with CSS libraries like BootStrap, Material UI,
+              Grommet and JS-in-CSS like Styled-components.
             </p>
           </div>
           <div className="job job3">
-            <h3>Data Science</h3>
-            <h6>Machine Learning and AI</h6>
+            <h3>Work Experience</h3>
             <p>
-              I've got hands on experience in the field of Python and Machine Learning and related libraries and
-              packages like pandas, numpy, scipy, scikit-learn. I made several small scale projects. I've also touched
-              the field of Artificial Intelligence and currently in process of developing a Self-driving Car Simulator.
+              Day to day affairs include working as a developer across three different projects and managing five other
+              developers across two of them by scoping out their tasks and reviewing the code.
             </p>
           </div>
         </div>
