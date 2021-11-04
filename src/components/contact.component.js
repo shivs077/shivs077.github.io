@@ -1,13 +1,14 @@
-import React from "react";
-import Heading from "../content/Heading";
-import Contact from "../content/Contact";
-import Footer from "./Footer";
-import Aux from "../hoc/Auy";
+import React, { useEffect } from 'react';
+import Heading from '../content/Heading';
+import Contact from '../content/Contact';
+import Footer from './Footer';
 
-const contactPage = () => {
-  document.title = "My Portfolio | Contact";
+const ContactPage = () => {
+  useEffect(() => {
+    document.title = 'My Portfolio | Contact';
+  }, []);
   return (
-    <Aux>
+    <>
       <main id="contact">
         <Heading lg="Contact" span="Me" sm="This is how you can reach me..." />
         <div className="boxes">
@@ -17,8 +18,8 @@ const contactPage = () => {
         </div>
       </main>
       <Footer />
-    </Aux>
+    </>
   );
 };
 
-export default contactPage;
+export default ContactPage;

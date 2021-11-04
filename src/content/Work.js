@@ -1,11 +1,10 @@
-import React from "react";
-import WorkLayout from "./WorkLayout";
-import Aux from "../hoc/Auy";
+import React from 'react';
+import WorkLayout from './WorkLayout';
 
 const Work = props => {
-  const myWork = props.projects.map(pro => <WorkLayout key={pro} src={pro} />);
+  const myWork = props.projects.map(pro => <WorkLayout key={pro.name} {...pro} />);
 
-  return <Aux>{myWork}</Aux>;
+  return <>{myWork}</>;
 };
 
 export default Work;
