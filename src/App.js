@@ -8,7 +8,6 @@ import ContactPage from './components/contact.component';
 import Header from './components/Header';
 
 const App = () => {
-  console.log('basename', process.env.PUBLIC_URL);
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Header />
