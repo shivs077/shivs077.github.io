@@ -95,6 +95,19 @@
       padding: 1.5rem;
     }
   }
+  #navigation {
+    .right-btn,
+    .left-btn {
+      bottom: -12px;
+      top: unset;
+      &,
+      &:hover,
+      &:active {
+        opacity: 1;
+        background-color: rgba(43, 43, 43, 0.7);
+      }
+    }
+  }
 
   //Smartphones
   @include mediaSm {

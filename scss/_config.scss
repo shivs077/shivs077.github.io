@@ -17,8 +17,13 @@ $home-image: url(../img/background.jpg);
         $home-image;
       background-size: cover;
       background-position: center;
-      position: relative;
+      position: fixed;
       background-repeat: no-repeat;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
     }
   }
 }

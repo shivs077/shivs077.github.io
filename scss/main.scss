@@ -22,7 +22,6 @@
 }
 
 body {
-  @include background();
   // background: $primary-color;
   color: set-text-color($primary-color);
   height: 100%;
@@ -64,6 +63,10 @@ header {
   color: $secondary-color;
 }
 
+div {
+  @include background();
+}
+
 main {
   padding: 4rem;
   min-height: 100vh;
@@ -93,8 +96,8 @@ main {
   &#contact,
   &#about,
   &#blog {
-    min-height: calc(100vh - 82px);
-    padding-bottom: calc(4rem + 82px);
+    min-height: calc(100vh - 79px);
+    padding-bottom: calc(4rem + 79px);
   }
 }
 
@@ -231,7 +234,7 @@ main {
 }
 
 #main-footer {
-  position: absolute;
+  // position: absolute;
   bottom: 0;
   text-align: center;
   padding: 1rem;
@@ -269,6 +272,54 @@ main {
   @extend .btn;
   background: lighten($primary-color, 50);
   color: #333;
+}
+
+// Navigation styles
+#navigation {
+  .right-btn,
+  .left-btn {
+    outline: none;
+    position: fixed;
+    top: 50%;
+    opacity: 0.5;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 0px 15px;
+    border-radius: 100%;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+    &:active,
+    &.active {
+      opacity: 0.8;
+      background-color: rgba(0, 0, 0, 0.4);
+      box-shadow: 2px 4px 8px #2b2b2b;
+    }
+  }
+
+  .right-btn {
+    right: 2px;
+  }
+  .left-btn {
+    left: 2px;
+  }
+}
+
+#keyboard-shortcuts {
+  z-index: 20;
+  pointer-events: none;
+  outline: none;
+  position: fixed;
+  background: transparent;
+  .backdrop {
+    z-index: 20;
+    position: absolute;
+    inset: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
 
 @import "mobile";

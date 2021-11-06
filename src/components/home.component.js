@@ -29,3 +29,5 @@ const Home = () => {
 };
 
 export default Home;
+
+/* <i class="fas fa-angle-double-right"></i> */
