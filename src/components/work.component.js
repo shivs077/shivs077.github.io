@@ -25,13 +25,13 @@ const projects = [
   {
     name: 'iWeather',
     github: 'https://github.com/shivs077/iWeather',
-    preview: 'https://shivs077.github.io/iWeather',
+    preview: 'https://github.com/shivs077/iWeather',
     description: 'An ionic weather app',
   },
   {
     name: 'VoiceEasy',
     github: 'https://github.com/shivs077/VoiceEasy',
-    preview: 'https://shivs077.github.io/VoiceEasy',
+    preview: 'https://github.com/shivs077/VoiceEasy',
     description: 'A react native app to search files on device or online using voice command',
   },
 ];
