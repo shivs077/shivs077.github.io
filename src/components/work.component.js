@@ -17,12 +17,6 @@ const projects = [
     description: 'A react component for Responsive grid layout using Resize Observer',
   },
   {
-    name: 'VoiceEasy',
-    github: 'https://github.com/shivs077/VoiceEasy',
-    preview: 'https://shivs077.github.io/VoiceEasy',
-    description: 'A react native app to search files on device or online using voice command',
-  },
-  {
     name: 'BurgerBuilder',
     github: 'https://github.com/shivs077/BurgerBuilder',
     preview: 'https://shivs077.github.io/BurgerBuilder',
@@ -33,6 +27,12 @@ const projects = [
     github: 'https://github.com/shivs077/iWeather',
     preview: 'https://shivs077.github.io/iWeather',
     description: 'An ionic weather app',
+  },
+  {
+    name: 'VoiceEasy',
+    github: 'https://github.com/shivs077/VoiceEasy',
+    preview: 'https://shivs077.github.io/VoiceEasy',
+    description: 'A react native app to search files on device or online using voice command',
   },
 ];
 
