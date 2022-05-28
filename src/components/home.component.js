@@ -15,13 +15,11 @@ const Home = () => {
         <a href="https://github.com/shivs077" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github fa-2x" />
         </a>
-        <a
-          href="https://medium.com/@shivambisht.1998
-            "
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://medium.com/@shivambisht.1998" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-medium fa-2x" />
+        </a>
+        <a href="https://codepen.io/shivs077" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-codepen fa-2x" />
         </a>
       </div>
     </main>
