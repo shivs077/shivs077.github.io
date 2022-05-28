@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useHistory, useLocation } from 'react-router';
 import ReactDOM from 'react-dom';
 
 import useScrollToTop from './useScrollToTop';
+import routes from 'routes';
 
 const KEYS = {
   8: 'onBackspace',
@@ -19,12 +20,11 @@ const KEYS = {
   77: 'm',
 };
 
-const ROUTES = ['/', '/about', '/work', '/contact'];
+const ROUTES = routes.map(i => i.path);
 
-const Navigation = ({ showMenu }) => {
+const Navigation = ({ showMenu, clicked, setClicked }) => {
   const history = useHistory();
   const { pathname } = useLocation();
-  const [clicked, setClicked] = useState(false);
   useScrollToTop(pathname);
 
   useEffect(() => {
@@ -37,11 +37,9 @@ const Navigation = ({ showMenu }) => {
 
       if (callbackName === 'onRight' && nextPath && !showMenu) {
         setClicked('next');
-        setTimeout(() => setClicked(false), 300);
         setTimeout(() => history.push(nextPath), 200);
       } else if (callbackName === 'onLeft' && previousPath && !showMenu) {
         setClicked('previous');
-        setTimeout(() => setClicked(false), 300);
         setTimeout(() => history.push(previousPath), 200);
       }
     };
@@ -58,16 +56,18 @@ const Navigation = ({ showMenu }) => {
       window.removeEventListener('keyup', keyUpHandler);
       window.removeEventListener('keydown', keyDownHandler);
     };
-  }, [history, pathname, showMenu]);
+  }, [history, pathname, showMenu, setClicked]);
 
   const handleNext = e => {
+    setClicked('next');
     const currentPathIndex = ROUTES.indexOf(pathname);
-    history.push(ROUTES[currentPathIndex + 1]);
+    setTimeout(() => history.push(ROUTES[currentPathIndex + 1]), 200);
   };
 
   const handlePrevious = e => {
+    setClicked('previous');
     const currentPathIndex = ROUTES.indexOf(pathname);
-    history.push(ROUTES[currentPathIndex - 1]);
+    setTimeout(() => history.push(ROUTES[currentPathIndex - 1]), 200);
   };
 
   return ReactDOM.createPortal(
