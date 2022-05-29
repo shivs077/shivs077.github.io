@@ -1,13 +1,25 @@
 import React, { useEffect } from 'react';
 import Heading from '../content/Heading';
+import useTypingEffect from 'hooks/useTypingEffect';
 
 const Home = () => {
   useEffect(() => {
     document.title = 'My Portfolio | Home';
   }, []);
+
+  useTypingEffect('.sm-heading span', 100);
+
   return (
     <main id="home">
-      <Heading lg="Shivam" span="Bisht" sm="Web Developer, Programmer and More..." />
+      <Heading
+        lg="Shivam"
+        span="Bisht"
+        sm={
+          <>
+            I am <span></span>
+          </>
+        }
+      />
       <div className="icons">
         <a href="https://www.linkedin.com/in/shivam-bisht-059b2917b/" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin fa-2x" />
@@ -27,5 +39,3 @@ const Home = () => {
 };
 
 export default Home;
-
-/* <i class="fas fa-angle-double-right"></i> */
