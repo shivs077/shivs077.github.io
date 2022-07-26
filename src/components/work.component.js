@@ -40,6 +40,12 @@ const projects = [
     preview: 'https://github.com/shivs077/VoiceEasy',
     description: 'A react native app to search files on device or online using voice command',
   },
+  {
+    name: 'CoffeeFy',
+    github: 'https://github.com/shivs077/coffeefy',
+    preview: 'https://github.com/shivs077/coffeefy',
+    description: 'A NextJS App to locate coffee shops (Under Development)',
+  },
 ];
 
 const WorkPage = () => {
