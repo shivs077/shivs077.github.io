@@ -23,6 +23,12 @@ const projects = [
     description: 'An interactive react web app to build and order a burger!',
   },
   {
+    name: 'JS - Tooltip',
+    github: 'https://github.com/shivs077/js-tooltip',
+    preview: 'https://shivs077.github.io/js-tooltip',
+    description: 'A Vanilla JS Tooltip for any DOM element',
+  },
+  {
     name: 'iWeather',
     github: 'https://github.com/shivs077/iWeather',
     preview: 'https://github.com/shivs077/iWeather',
