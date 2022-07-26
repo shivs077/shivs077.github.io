@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Image from '../img/portrait1.jpg';
 import Footer from './Footer';
 import Heading from '../content/Heading';
+import Image2 from '../img/portrait2.jpg';
 
 const About = () => {
   useEffect(() => {
@@ -25,7 +26,7 @@ const About = () => {
             <h3>JS Frameworks</h3>
             <p>
               Enthusiastic about MERN stack. Also have project in IONIC and React Native. Have P5.js and React-D3 data
-              visualization exposure as well.
+              visualization exposure as well. NextJS in progress.
             </p>
           </div>
           <div className="job job2">
@@ -42,6 +43,9 @@ const About = () => {
               developers across two of them by scoping out their tasks and reviewing the code.
             </p>
           </div>
+        </div>
+        <div className="about-portrait2">
+          <img src={Image2} alt="Portrait" />
         </div>
       </main>
       <Footer />

@@ -196,7 +196,7 @@ main {
   }
 
   .job {
-    background: lighten($primary-color, 5);
+    background: lighten($primary-color, 5) + aa;
     padding: 0.5rem;
     border-bottom: 5px solid $secondary-color;
   }
@@ -381,6 +381,21 @@ main {
     position: absolute;
     inset: 0px;
     background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.about-portrait2 {
+  // height: 80vh;
+  margin-top: 5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  max-height: 80vh;
+
+  img {
+    object-fit: contain;
+    overflow: hidden;
   }
 }
 

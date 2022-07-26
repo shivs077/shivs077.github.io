@@ -251,7 +251,7 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #515151;
+    background: #515151aa;
     padding: 0.5rem;
     border-bottom: 5px solid #eece1a; }
   .about-info .job h3,
@@ -385,6 +385,17 @@ main {
     position: absolute;
     inset: 0px;
     background-color: rgba(0, 0, 0, 0.5); }
+
+.about-portrait2 {
+  margin-top: 5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  max-height: 80vh; }
+  .about-portrait2 img {
+    object-fit: contain;
+    overflow: hidden; }
 
 @media screen and (min-width: 1171px) {
   .projects {
