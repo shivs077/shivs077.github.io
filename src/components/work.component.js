@@ -5,6 +5,12 @@ import Footer from './Footer';
 
 const projects = [
   {
+    name: 'Modern Portfolio',
+    github: 'https://github.com/shivs077/portfolio',
+    preview: 'https://portfolio-jrjmf3wsp-shivs077.vercel.app/',
+    description: 'A Mordern Portfolio made with NextJs + TailwindCSS + Framer Motion',
+  },
+  {
     name: 'useEventEmitter',
     github: 'https://github.com/shivs077/useEventEmitter',
     preview: 'https://5z7t7.csb.app/',
