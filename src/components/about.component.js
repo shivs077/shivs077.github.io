@@ -17,35 +17,37 @@ const About = () => {
           <div className="bio">
             <h2 className="text-secondary">Bio</h2>
             <p>
-              An Indian developer and programmer. Professional experience in developing Web apps with ReactJS and
-              associated libraries. Also created projects in frameworks like Ionic and React Native. Graduated from
-              GGSIPU, Delhi with a degree in B.Tech. IT. A cat person.
+              Passionate developer and programmer with a proven track record in crafting dynamic Web applications using
+              ReactJS and its complementary libraries. Proficient in diverse frameworks including NextJs and React
+              Native, complementing professional experience. Holder of a B.Tech. degree in IT from GGSIPU, Delhi. IT. A
+              cat person.
             </p>
           </div>
           <div className="job job1">
             <h3>JS Frameworks</h3>
             <p>
-              Enthusiastic about MERN stack. Also have project in IONIC and React Native. Have P5.js and React-D3 data
-              visualization exposure as well. NextJS in progress.
+              Enthusiastic about ReactJS & MERN stack. Also have project in NextJS, IONIC and React Native. Have Framer
+              motion & Redux toolkit experience as well.
             </p>
           </div>
           <div className="job job2">
             <h3>Styling</h3>
             <p>
-              Have a good grasp of CSS (also SCSS). I've also worked with CSS libraries like BootStrap, Material UI,
-              Grommet and JS-in-CSS like Styled-components.
+              Have a good grasp of CSS. I've also worked with SCSS, TailwindCSS, BootStrap, Material UI, Grommet and
+              JS-in-CSS like Styled-components.
             </p>
           </div>
           <div className="job job3">
             <h3>Work Experience</h3>
             <p>
-              Day to day affairs include working as a developer across three different projects and managing five other
-              developers across two of them by scoping out their tasks and reviewing the code.
+              Day to day affairs include working as a developer across various projects and managing other developers
+              across a couple of them by scoping out their tasks and reviewing their code.
             </p>
           </div>
         </div>
         <div className="about-portrait2">
           <img src={Image2} alt="Portrait" />
+          <p className="about-portrait-caption">Explaining the frontend architecture at the annual town hall</p>
         </div>
       </main>
       <Footer />

@@ -11,22 +11,34 @@ const projects = [
     description: 'A Mordern Portfolio made with NextJs + TailwindCSS + Framer Motion',
   },
   {
+    name: 'Fribbble',
+    github: 'https://github.com/shivs077/fribbble',
+    preview: 'https://fribbble-shivs077.vercel.app/',
+    description: 'A Dribbble clone made with NextJs + TailwindCSS + Grafbase (GraphQL)',
+  },
+  {
     name: 'useEventEmitter',
     github: 'https://github.com/shivs077/useEventEmitter',
     preview: 'https://5z7t7.csb.app/',
-    description: 'A react hook for Reactive Programming',
+    description: 'A React hook for Reactive Programming',
   },
   {
     name: 'ResponsiveGrid',
     github: 'https://github.com/shivs077/ResponsiveGrid',
     preview: 'https://u5qv3.csb.app/',
-    description: 'A react component for Responsive grid layout using Resize Observer',
+    description: 'A React Component for Responsive Grid Layout using Resize Observer',
   },
   {
     name: 'BurgerBuilder',
     github: 'https://github.com/shivs077/BurgerBuilder',
     preview: 'https://shivs077.github.io/BurgerBuilder',
-    description: 'An interactive react web app to build and order a burger!',
+    description: 'An interactive ReactJs (and Firebase Store) Web App to build and order a burger!',
+  },
+  {
+    name: 'VoiceEasy',
+    github: 'https://github.com/shivs077/VoiceEasy',
+    preview: 'https://github.com/shivs077/VoiceEasy',
+    description: 'A react native app to search files on device or online using voice command',
   },
   {
     name: 'JS - Tooltip',
@@ -39,18 +51,6 @@ const projects = [
     github: 'https://github.com/shivs077/iWeather',
     preview: 'https://github.com/shivs077/iWeather',
     description: 'An ionic weather app',
-  },
-  {
-    name: 'VoiceEasy',
-    github: 'https://github.com/shivs077/VoiceEasy',
-    preview: 'https://github.com/shivs077/VoiceEasy',
-    description: 'A react native app to search files on device or online using voice command',
-  },
-  {
-    name: 'CoffeeFy',
-    github: 'https://github.com/shivs077/coffeefy',
-    preview: 'https://github.com/shivs077/coffeefy',
-    description: 'A NextJS App to locate coffee shops (Under Development)',
   },
 ];
 
